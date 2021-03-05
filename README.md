@@ -26,10 +26,9 @@ Create a variable holding a string with the zip file web address (should be *raw
 
 ```R
 RiskRegions.z <- "https://github.com/NSF-Microplastics-Project/Risk_Region.shapefile/raw/main/Data/SFB_RiskRegions_20210304.zip"
-```
-
-Load Shapefile Using `unzipShape` and Raw Address:
-
-```R
 RiskRegions <- unzipShape(RiskRegions.z)
+
+# Or just...
+
+RiskRegions <- unzipShape("https://github.com/NSF-Microplastics-Project/Risk_Region.shapefile/raw/main/Data/SFB_RiskRegions_20210304.zip")
 ```
