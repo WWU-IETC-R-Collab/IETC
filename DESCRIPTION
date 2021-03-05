@@ -6,7 +6,7 @@ Authors@R: person("Elmstrom", "Hadley", email = "skylerelmstrom@gmail.com",
   role = c("aut", "cre"))
 Maintainer: The package maintainer <skylerelmstrom@gmail.com>
 Description: This package contains functions commonly used during WWU IETC analyses in R.
-License:
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Depends:
