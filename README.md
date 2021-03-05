@@ -18,6 +18,8 @@ Please create an [issue](https://github.com/NSF-Microplastics-Project/Risk_Regio
 
 ## unzipShape()
 
+The `unzipShape()` downloads raw GitHub zipped shapefiles or other web accessible zipped shapefiles into a temporary directory, unzips, and then stores data as an `sf` object. This does not save a copy of the shapefile to your working directory. This function should be used to load the latest shapefiles from IETC GitHub repositories.
+
 #### Example
 
 Create a variable holding a string with the zip file web address (should be *raw* address for GitHub files). Then use this variable as the input for `unzipShape()`.
