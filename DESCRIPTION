@@ -1,12 +1,12 @@
 Package: IETC
 Type: Package
 Title: IETC Common Functions
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Elmstrom", "Hadley", email = "skylerelmstrom@gmail.com",
   role = c("aut", "cre"))
 Maintainer: The package maintainer <skylerelmstrom@gmail.com>
 Description: This package contains functions commonly used during WWU IETC analyses in R.
-License: MIT
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends:
@@ -14,10 +14,10 @@ Imports:
     data.table (>= 1.13.6),
     sf (>= 0.9-7),
     lubridate (>= 1.7.9.2),
-    tidyverse (>= 1.3.0)
+    tidyverse (>= 1.3.0),
+    utils (>= 3.6.3)
 Suggests:
     raster,
     rgdal,
     plyr
-    
-    
+RoxygenNote: 7.1.1
